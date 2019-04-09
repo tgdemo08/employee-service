@@ -13,8 +13,8 @@ class LoadDatabase {
 	@Bean
 	CommandLineRunner initDatabase(EmployeeRepository repository) {
 		return args -> {
-			repository.save(new Employee("Bilbo Baggins", "burglar4"));
-			repository.save(new Employee("Frodo Baggins", "thief4"));
+			repository.save(new Employee("Bilbo Baggins", "burglar5"));
+			repository.save(new Employee("Frodo Baggins", "thief5"));
 		};
 	}
 }
